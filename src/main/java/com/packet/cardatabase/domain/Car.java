@@ -22,6 +22,8 @@ public class Car {
     @JoinColumn(name = "Owner")
     private Owner owner;
 
+
+
     public Car(String brand, String model, String color, String registerNumber, int year, int price, Owner owner) {
         this.brand = brand;
         this.model = model;
